@@ -14,13 +14,13 @@
 		D46F85FC19C5644100A015DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D46F85FB19C5644100A015DE /* main.m */; };
 		D46F860019C5644100A015DE /* GIGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D46F85FF19C5644100A015DE /* GIGAppDelegate.m */; };
 		D46F860319C5644100A015DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46F860119C5644100A015DE /* Main.storyboard */; };
-		D46F860619C5644100A015DE /* GIGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46F860519C5644100A015DE /* GIGViewController.m */; };
 		D46F860819C5644100A015DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46F860719C5644100A015DE /* Images.xcassets */; };
 		D46F860F19C5644100A015DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46F860E19C5644100A015DE /* XCTest.framework */; };
 		D46F861019C5644100A015DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46F85EF19C5644100A015DE /* Foundation.framework */; };
 		D46F861119C5644100A015DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46F85F319C5644100A015DE /* UIKit.framework */; };
 		D46F861919C5644100A015DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D46F861719C5644100A015DE /* InfoPlist.strings */; };
 		D46F861B19C5644100A015DE /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D46F861A19C5644100A015DE /* UITableViewController_Challenge_SolutionTests.m */; };
+		D46F862619C5658000A015DE /* GIGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46F862519C5658000A015DE /* GIGTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		D46F85FE19C5644100A015DE /* GIGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIGAppDelegate.h; sourceTree = "<group>"; };
 		D46F85FF19C5644100A015DE /* GIGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIGAppDelegate.m; sourceTree = "<group>"; };
 		D46F860219C5644100A015DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D46F860419C5644100A015DE /* GIGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIGViewController.h; sourceTree = "<group>"; };
-		D46F860519C5644100A015DE /* GIGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIGViewController.m; sourceTree = "<group>"; };
 		D46F860719C5644100A015DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D46F860D19C5644100A015DE /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46F860E19C5644100A015DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D46F861619C5644100A015DE /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		D46F861819C5644100A015DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D46F861A19C5644100A015DE /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		D46F862419C5658000A015DE /* GIGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIGTableViewController.h; sourceTree = "<group>"; };
+		D46F862519C5658000A015DE /* GIGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +115,10 @@
 				D46F85FE19C5644100A015DE /* GIGAppDelegate.h */,
 				D46F85FF19C5644100A015DE /* GIGAppDelegate.m */,
 				D46F860119C5644100A015DE /* Main.storyboard */,
-				D46F860419C5644100A015DE /* GIGViewController.h */,
-				D46F860519C5644100A015DE /* GIGViewController.m */,
 				D46F860719C5644100A015DE /* Images.xcassets */,
 				D46F85F619C5644100A015DE /* Supporting Files */,
+				D46F862419C5658000A015DE /* GIGTableViewController.h */,
+				D46F862519C5658000A015DE /* GIGTableViewController.m */,
 			);
 			path = "UITableViewController Challenge Solution";
 			sourceTree = "<group>";
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46F860619C5644100A015DE /* GIGViewController.m in Sources */,
 				D46F860019C5644100A015DE /* GIGAppDelegate.m in Sources */,
 				D46F85FC19C5644100A015DE /* main.m in Sources */,
+				D46F862619C5658000A015DE /* GIGTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

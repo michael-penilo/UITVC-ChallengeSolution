@@ -1,5 +1,5 @@
 //
-//  GIGViewController.h
+//  GIGTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Michael Penilo on 14/09/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GIGViewController : UIViewController
+@interface GIGTableViewController : UITableViewController
 
 @end
